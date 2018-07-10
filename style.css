@@ -46,13 +46,12 @@ div.post{
     display: block;
     width: 60px;
     height: 30px;
-    font-family: 'helvetica';
-    background-color:turquoise;
+    font-family: 'comic sans';
+    background-color:silver;
     border: 2px solid #fff;
     float: center;
    }
 #sendButton:hover{
-    color: #fff;
     background-color: gray;
     border-radius: 10px 0px 10 px 0px;
 }
@@ -62,5 +61,9 @@ div.post{
     background-color: #fff;
     width: 800px;
     float: center;
+}
+#postado{
+    font-size: 20px;
+    font-family: 'helvetica';
 }
 

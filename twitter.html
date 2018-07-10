@@ -22,13 +22,14 @@
   </div>
   <form>
     <div class='post'>
-      <textarea id='message' rows='10' cols="60"></textarea>
-      <button id='sendButton'>Tweet</button>
+      <textarea id='message' onkeydown='desativaBotao()' rows='10' cols="60"></textarea>
+      <div id='limiteTexto'>140</div>
+      <button id='sendButton'>Tweetar</button>
     </div>
   </form>
   </div>
   <div id='postado'></div>
   <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="moment.js"></script>
 </body>
-
 </html>
