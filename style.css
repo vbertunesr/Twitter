@@ -50,10 +50,10 @@ div.post{
     background-color:silver;
     border: 2px solid #fff;
     float: center;
+    border-radius: 10px;
    }
 #sendButton:hover{
     background-color: gray;
-    border-radius: 10px 0px 10 px 0px;
 }
 .tweet{
     padding: 20px;
@@ -65,5 +65,10 @@ div.post{
 #postado{
     font-size: 20px;
     font-family: 'helvetica';
+}
+#limiteTexto{
+    font-size: 20px;
+    font-weight: 700;
+
 }
 

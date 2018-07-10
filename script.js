@@ -27,3 +27,12 @@ function desativaBotao(){
     document.getElementById('sendButton').disabled = true;
   }
 }
+function mudaCor(){
+  var contador = document.getElementById('limiteTexto');
+  if(textarea.value.length > 120 && textarea.value.length < 130){
+    contador.style.color = "green";
+  } else if (textarea.value.length > 130 && textarea.value.length < 140){
+    contador.style.color = "purple";
+  }
+ }
+ setInterval(mudaCor, 1);
