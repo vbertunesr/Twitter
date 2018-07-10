@@ -1,0 +1,66 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('image/fundo.jpg');
+}
+header{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 30px;
+    height: 20px;
+}
+.caixa{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'sans serif';
+    font-weight: 700;
+    color: #fff;
+    float: center;
+    margin: 0;
+}
+textarea{
+    font-family: 'helvetica';
+    font-weight: 400px;
+    resize: none;
+}
+div.bio{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 400px;
+    padding: 40px;
+}
+div.post{
+    padding: 40px;
+    overflow: auto;
+}
+#sendButton {
+    display: block;
+    width: 60px;
+    height: 30px;
+    font-family: 'helvetica';
+    background-color:turquoise;
+    border: 2px solid #fff;
+    float: center;
+   }
+#sendButton:hover{
+    color: #fff;
+    background-color: gray;
+    border-radius: 10px 0px 10 px 0px;
+}
+.tweet{
+    padding: 20px;
+    margin: 5px auto;
+    background-color: #fff;
+    width: 800px;
+    float: center;
+}
+
