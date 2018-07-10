@@ -7,8 +7,9 @@ function tweet(event){
   var minhaDiv = document.createElement('div');
   postado.prepend(minhaDiv);
   minhaDiv.setAttribute('class', 'tweet');
+  minhaDiv.className='styleColor';
   var newText = document.createElement('p');  
-  newText.textContent = textarea.value + moment().format('lll');
+  newText.textContent = textarea.value + " " + moment().format('lll');
   minhaDiv.appendChild(newText);
 
   textarea.value = "";

@@ -69,6 +69,13 @@ div.post{
 #limiteTexto{
     font-size: 20px;
     font-weight: 700;
-
 }
-
+.styleColor{
+    padding: 4px;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+#postado p{
+    color: purple;
+    margin-left: 10px;
+}
